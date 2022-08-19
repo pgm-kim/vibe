@@ -57,6 +57,7 @@ header {
     padding-bottom: 4rem;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .menu {
@@ -81,7 +82,7 @@ li:hover {
     background-color: grey;
     padding: 2rem;
     border-left: solid white;
-    margin-top: 5rem;
+    margin-top: -1rem;
 }
 
 .q {
@@ -150,17 +151,30 @@ footer, .cards {
     padding-bottom: 3rem;
 }
 
+
 .socials  {
     width: 20rem;
     display: flex;
     justify-content: space-between;
 }
 
-.picture, .woman {
+.quotes {
+    width: 4rem;
+    padding-left: 4rem;
+    padding-top: 5rem;
+}
+
+.picture {
     width: 102vw;
     margin-left: -28rem;
     background-color: var(--donkerblauw);
 }
+
+ .woman {
+    margin-left: -28rem;
+    margin-bottom: -0.25rem;
+ }
+
 
 .social {
     width: 33px;
