@@ -107,6 +107,8 @@ font-family: 'Lato', sans-serif;
     height: 20rem;
     padding: 1rem;
     border-radius: 0.8rem;
+    display: block;
+    justify-content: space-evenly;
 }
 
 .card--blue {
@@ -119,7 +121,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .center {
-    padding-left: 6rem;
+    margin: 6rem;
  }
 
 .card__section {
@@ -153,7 +155,7 @@ footer, .cards {
 
 
 .socials  {
-    width: 20rem;
+    width: 10rem;
     display: flex;
     justify-content: space-between;
 }
@@ -166,6 +168,7 @@ footer, .cards {
 
 .picture {
     width: 102vw;
+    margin-top: 8rem;
     margin-left: -28rem;
     background-color: var(--donkerblauw);
 }
@@ -173,16 +176,17 @@ footer, .cards {
  .woman {
     margin-left: -28rem;
     margin-bottom: -0.25rem;
+    display: block;
  }
 
 
 .social {
-    width: 33px;
-    background: white;
+    height: 25px;
+    fill: white;
 }
 
 .social:hover {
-    background: var(--geel);
+    fill: var(--geel);
 }
 
  .site:hover {
